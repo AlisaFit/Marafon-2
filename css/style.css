@@ -133,7 +133,7 @@ html {
 /*articles*/
 
 .main-container {
-  max-width: 1230px;
+  max-width: 1470px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -141,6 +141,11 @@ html {
 }
 
 .section-articles {
+  max-width: 1230px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 85px;
 }
 
@@ -283,9 +288,10 @@ html {
 
 /* about me */
 
-.about-me-container {
+.section-profile {
   max-width: 1200px;
   margin-right: auto;
+  margin-left: 110px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -340,6 +346,11 @@ html {
 /* portfolio */
 
 .section-portfolio {
+  max-width: 1230px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 85px;
 }
 
@@ -447,12 +458,8 @@ html {
 .form-label {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
-}
-
-.form-title {
-  margin: 0;
   margin-bottom: 12px;
   font-family: 'Spectral SC', serif;
   font-weight: 700;
@@ -483,7 +490,7 @@ html {
 }
 
 .btn-container {
-  margin: 32px auto 0;
+  margin: 12px auto 0;
 }
 
 /* footer */
