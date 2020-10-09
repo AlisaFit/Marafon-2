@@ -12,7 +12,7 @@
 <body>
   <header class="header">
     <div class="header-container">
-      <a href="#" class="logo">
+      <a href="index.html" class="logo">
         <img src="img/logo.png" alt="Логотип" class="logo-img">
       </a>
       <nav class="header-nav">
@@ -68,7 +68,7 @@
         <article class="articles-item-top">
           <img src="img/image-2.png" alt="Где выпить колдбрю в Москве" class="articles-img">
           <h3 class="articles-heading-top">
-            <a href="#" class="articles-link-top">Где выпить колдбрю в Москве</a>
+            <a href="Desktop.html" class="articles-link-top">Где выпить колдбрю в Москве</a>
           </h3>
           <p class="articles-desc-top">Собрала для вас список любимых кофеен, где подают лучший летний напиток.</p>
           <span class="articles-caption-top">
@@ -83,7 +83,7 @@
         <article class="articles-item-top">
           <img src="img/image-3.png" alt="Прочитано: книжные рекомендации" class="articles-img">
           <h3 class="articles-heading-top">
-            <a href="#" class="articles-link-top">Прочитано: книжные рекомендации</a>
+            <a href="Desktop.html" class="articles-link-top">Прочитано: книжные рекомендации</a>
           </h3>
           <p class="articles-desc-top">Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
           <span class="articles-caption-top">
@@ -99,7 +99,7 @@
       <div class="articles-list-bottom">
         <article class="articles-item-bottom article-background-1">
           <h3 class="articles-heading-bottom">
-            <a class="articles-link-bottom" href="#">Снимки на пленку</a>
+            <a class="articles-link-bottom" href="Desktop.html">Снимки на пленку</a>
           </h3>
           <p class="articles-desc-bottom">
             Поделилась с вами весенними фотографиями, и секретами удачных снимков.
@@ -115,7 +115,7 @@
         </article>
         <article class="articles-item-bottom article-background-2">
           <h3 class="articles-heading-bottom">
-            <a class="articles-link-bottom" href="#">Домашний чизкейк</a>
+            <a class="articles-link-bottom" href="Desktop.html">Домашний чизкейк</a>
           </h3>
           <p class="articles-desc-bottom">
             Что может быть лучше чизкейка с сезонными ягодами? Только домашний чизкейк!
@@ -134,7 +134,8 @@
         <button type="button" class="articles-btn">Показать еще</button>
       </div>
     </section>
-    <section class="section-about-me about-me-container">
+
+    <section class="section-about-me">
       <h2 class="section-heading text-center" id="profile">
         Обо мне
       </h2>
@@ -208,42 +209,41 @@
       </h2>
       <form class="feedback-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
         <label class="form-label" for="name">
-          <h3 class="form-title">Ваше имя</h3>
+          Ваше имя
           <input type="text" name="name" placeholder="Иван Иванов" class="feedback-form-item" id="name" required>
         </label>
         <label class="form-label" for="mail">
-          <h3 class="form-title">Email</h3>
+          Email
           <input type="email" name="mail" placeholder="google@gmail.com" class="feedback-form-item" id="mail" required>
         </label>
-        <label class="form-label" for="massage">
-          <h3 class="form-title">Сообщение</h3>
-          <textarea name="message" placeholder="Напишите здесь ваше сообщение." cols="85" rows="10" minlength="10" maxlength="200" class="feedback-form-item feedback-form-textarea" id="message"></textarea>
+        <label class="form-label" for="textarea">
+          Сообщение
         </label>
+        <textarea name="message" placeholder="Напишите здесь ваше сообщение." cols="30" rows="10" minlength="10" maxlength="200" class="feedback-form-item feedback-form-textarea" id="textarea"></textarea>
         <div class="btn-container">
           <button type="submit" class="feedback-btn">Отправить</button>
         </div>
       </form>
     </section>
   </main>
-<footer class="footer">
-  <nav class="footer-nav">
-    <ul class="footer-nav-list">
-      <li class="footer-nav-item">
-        <a href="#" class="nav-link">ВК</a>
-      </li>
-      <li class="footer-nav-item">
-        <a href="#" class="nav-link">Телеграм</a>
-      </li>
-      <li class="footer-nav-item">
-        <a href="#" class="nav-link">Инстаграм</a>
-      </li>
-      <li class="footer-nav-item">
-        <a href="#" class="nav-link">Твиттер</a>
-      </li>
-    </ul>
-  </nav>
-</footer>
-<script src="script.js"></script>
+  <footer class="footer">
+    <nav class="footer-nav">
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a href="https://vk.com/" class="nav-link">ВК</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="https://telegram.org/" class="nav-link">Телеграм</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="https://instagram.com/" class="nav-link">Инстаграм</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="https://twitter.com/" class="nav-link">Твиттер</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 
 </html>
